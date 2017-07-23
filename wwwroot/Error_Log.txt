@@ -1,0 +1,289 @@
+
+Error in redirect_uri: Missing GET values in SMS subscription
+
+Error in redirect_uri: Missing GET values in SMS subscription
+
+Error in redirect_uri: Request Method: GET Content Type: 
+
+Error in redirect_uri: Request Method: POST Content Type: application/json
+
+Error in redirect_uri: JSON: Array
+
+Error in redirect_uri: JSON: Om6bHcVT28aBr2JEIOgmlXE4Ad6VCo6KnNthDQ3OSMA
+
+NICE: 
+NICE: POST
+NICE: Array
+NICE: 
+1
+Array
+(
+)
+
+[]
+{"app_id":"xXayt5oXAzhMoi6E4AcXMKh75Xk5tgAa","app_secret":"232a13fa1745dde9f9ebbd0b76567f6afe724019137be862d356c77a600246a0","code":"kEUgLGaEfyo9GMh86Agpua5KnGHRXk7AFXAdkosyzBMbCARR8MuGajy8Fop69phrb47xFM5MMyfLqjK5fyeArECxgjRjFqBM6qfgE4GAtL5Ln5uoKaknsM4eEgCMLTKnGeqTeqkCGeaGMs6nLezuxq4bEtK7M4jf8Kj89FGzA4nCg4jd5fnzMqkfKe4RKFjM6Lah7qja6F4KRaAuxbBpBC5qdpBs4xk4XFL4KprH8aAjAuab9RphorGqefzrd8qU"}
+application/json
+
+application/json
+Array
+(
+    [inboundSMSMessageList] => Array
+        (
+            [inboundSMSMessage] => Array
+                (
+                    [0] => Array
+                        (
+                            [dateTime] => Fri Jul 21 2017 19:13:13 GMT+0000 (UTC)
+                            [destinationAddress] => tel:21583695
+                            [messageId] => 59725249d33a360100225464
+                            [message] => Rebuff
+                            [resourceURL] => 
+                            [senderAddress] => tel:+639179210168
+                        )
+
+                )
+
+            [numberOfMessagesInThisBatch] => 1
+            [resourceURL] => 
+            [totalNumberOfPendingMessages] => 0
+        )
+
+)
+
+application/json
+Array
+(
+    [inboundSMSMessageList] => Array
+        (
+            [inboundSMSMessage] => Array
+                (
+                    [0] => Array
+                        (
+                            [dateTime] => Fri Jul 21 2017 19:41:00 GMT+0000 (UTC)
+                            [destinationAddress] => tel:21583695
+                            [messageId] => 597258cc6d83b30100365877
+                            [message] => ndcisjqbehdjccosjanenrjfiffksjdbrbhgg
+                            [resourceURL] => 
+                            [senderAddress] => tel:+639179210168
+                        )
+
+                )
+
+            [numberOfMessagesInThisBatch] => 2
+            [resourceURL] => 
+            [totalNumberOfPendingMessages] => 0
+        )
+
+)
+
+application/json
+Array
+(
+    [inboundSMSMessageList] => Array
+        (
+            [inboundSMSMessage] => Array
+                (
+                    [0] => Array
+                        (
+                            [dateTime] => Fri Jul 21 2017 19:41:04 GMT+0000 (UTC)
+                            [destinationAddress] => tel:21583695
+                            [messageId] => 597258d038fbb30100bcb960
+                            [message] => Rubik djdirjfjfjdjebdjfjdjejfbdjdjejfbfjdjejrbfbfjdndbfnfjfjfjfjdndndbdbdbdbrbdndndbrnfnfnfbfnfnfbfbdbfbfbdbdbfnfbdbfbfbfnf fbfbfnfndnfbfnfnfnfnrdjsaiebe
+                            [resourceURL] => 
+                            [senderAddress] => tel:+639179210168
+                        )
+
+                )
+
+            [numberOfMessagesInThisBatch] => 2
+            [resourceURL] => 
+            [totalNumberOfPendingMessages] => 0
+        )
+
+)
+
+
+Error in notify_uri: Unable to insert data in sms log
+
+
+Error in notify_uri: Unable to insert data in sms log. Query: INSERT INTO sms_log(num_msg, msg_id, msg, to_addr, from_addr, recv_time) VALUES(1, 59725e4c6d83b30100366dd7, 'Hi
+Papi', 'tel:21583695', 'tel:+639179210168', 'Fri Jul 21 2017 20:04:28 GMT+0000 (UTC)')
+
+
+Error in notify_uri: Unable to insert data in sms log. Query: INSERT INTO sms_log(num_msg, msg_id, msg, to_addr, from_addr, recv_time) VALUES(1, '59725eb642102b0100be7afe', 'Hi
+Papi', 'tel:21583695', 'tel:+639179210168', 'Fri Jul 21 2017 20:06:14 GMT+0000 (UTC)')
+
+Array
+(
+    [0] => Hi
+    [1] => Papi
+)
+EnteringFail2EnteringFail2EnteringFail2EnteringFail2Entering
+\nError in redirect_uri: Curl Error: <url> malformedEnteringNiceEnteringNiceEnteringNiceEntering
+{"outboundSMSMessageRequest":{"senderAddress":"21583695","outboundSMSTextMessage":{"message":null},"address":"9173047014"}}Entering
+{"outboundSMSMessageRequest":{"senderAddress":"21583695","outboundSMSTextMessage":{"message":"uLOL","address":"9173047014"}}}Entering
+{"outboundSMSMessageRequest":{"senderAddress":"21583695","outboundSMSTextMessage":{"message":"uLOL","address":"tel:+639173047014"}}}Entering
+{"outboundSMSMessageRequest":{"senderAddress":"21583695","outboundSMSTextMessage":{"message":"uLOL","address":"tel:+639173047014"}}}https://devapi.globelabs.com.ph/smsmessaging/v1/outbound/3695/requests?access_token=wKIiYeryaTrr-YzNXuyXq9X-i6loMmj78hes0ae13XAEntering
+{"outboundSMSMessageRequest":{"senderAddress":"tel:21583695","clientCorrelator":"123456","outboundSMSTextMessage":{"message":"uLOL"},"address":"tel:+639173047014"}}https://devapi.globelabs.com.ph/smsmessaging/v1/outbound/3695/requests?access_token=wKIiYeryaTrr-YzNXuyXq9X-i6loMmj78hes0ae13XAEntering
+{"outboundSMSMessageRequest":{"senderAddress":"tel:21583695","clientCorrelator":"123456","outboundSMSTextMessage":{"message":"uLOL"},"address":"tel:+639173047014"}}https://devapi.globelabs.com.ph/smsmessaging/v1/outbound/3695/requests?access_token=wKIiYeryaTrr-YzNXuyXq9X-i6loMmj78hes0ae13XAEntering
+{"outboundSMSMessageRequest":{"senderAddress":"tel:21583695","clientCorrelator":"123456","outboundSMSTextMessage":{"message":"Exam ka ba?\nGustong gusto na kasi kitang i-take home eh!"},"address":"tel:+639173047014"}}Pwede ba kitang maging sidecar?
+Single kasi ako eh.Entering
+
+Error in notify_uri: Unable to Parse TextEntering
+{"outboundSMSMessageRequest":{"senderAddress":"tel:21583695","clientCorrelator":"123456","outboundSMSTextMessage":{"message":"Pwede ba kitang maging sidecar?\nSingle kasi ako eh."},"address":"tel:+639173047014"}}Nurse: Doc, bat may thermo ka sa tenga?
+Doc: Susmaryosep, nakaiwan ako ng ballpen sa puwet ng pasyente.
+
+Error in notify_uri: Text is not in correct format for CreSENSE AppEntering
+{"outboundSMSMessageRequest":{"senderAddress":"tel:21583695","clientCorrelator":"123456","outboundSMSTextMessage":{"message":"Piolo just needs five things to live: some friends, some food, some work, some love and some Milby."},"address":"tel:+639173047014"}}Nurse: Doc, bat may thermo ka sa tenga?
+Doc: Susmaryosep, nakaiwan ako ng ballpen sa puwet ng pasyente.
+
+Error in notify_uri: Text is not in correct format for CreSENSE AppEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Text is not in correct format for PAPI AppEntering
+
+Error in notify_uri: Text is not in correct format for PAPI AppEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse Text
+
+Error in notify_uri: Unable to insert data in disaster statistics. Query: INSERT INTO disaster_statistic(event_id, name, subscriber_id, status) VALUES(NOTSAFE, 'JP Tuazon', 9, 0)
+Entering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Text is not in correct format for PAPI AppEntering
+
+Error in notify_uri: Text is not in correct format for PAPI App
+\nError in inputdisasters: No subscriber data
+\nError in inputdisasters: No subscriber dataEntering
+
+Error in notify_uri: Text is not in correct format for PAPI AppEntering
+
+Error in notify_uri: Text is not in correct format for PAPI AppEntering
+
+Error in notify_uri: Text is not in correct format for PAPI AppEntering
+
+Error in notify_uri: Text is not in correct format for PAPI AppEntering
+
+Error in notify_uri: Text is not in correct format for PAPI AppEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Text is not in correct format for PAPI App
+
+Error in notify_uri: Text is not in correct format for CreSENSE AppEntering
+
+Error in notify_uri: Text is not in correct format for PAPI AppEntering
+
+Error in notify_uri: Text is not in correct format for PAPI AppEntering
+
+Error in notify_uri: Text is not in correct format for PAPI AppEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Unable to Parse TextEntering
+
+Error in notify_uri: Text is not in correct format for PAPI AppEntering
+
+Error in notify_uri: Text is not in correct format for PAPI AppEntering
+
+Error in notify_uri: Text is not in correct format for PAPI AppEntering
+
+Error in notify_uri: Text is not in correct format for PAPI AppEntering
+
+Error in notify_uri: Text is not in correct format for PAPI AppEntering
+
+Error in notify_uri: Text is not in correct format for PAPI AppEntering
+
+Error in notify_uri: Text is not in correct format for PAPI AppEntering
+
+Error in notify_uri: Text is not in correct format for PAPI AppEntering
+
+Error in notify_uri: Text is not in correct format for PAPI App
